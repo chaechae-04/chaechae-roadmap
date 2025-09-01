@@ -1,17 +1,10 @@
-import Card from '../components/common/Card'
-import useNavigate from '../hook/useNavigate'
+import MainCardContainer from '../components/main/MainCardContainer'
 
 function MainPage() {
-  const { navigate } = useNavigate()
   
   return (
     <div className="flex flex-col items-center justify-center h-screen">
-      <h1>MainPage</h1>
-      <Card 
-        title="Todo List" 
-        content="Todo List" 
-        onClick={() => navigate('/todo')} 
-      />
+      <MainCardContainer />
     </div>
   )
 }
