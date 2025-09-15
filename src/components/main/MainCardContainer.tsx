@@ -68,7 +68,6 @@ const MainCardContainer: React.FC = () => {
               transition={{ duration: 0.5 }}
             >
               {chapters.map((chapter, index) => {
-                // 화면 아래쪽 반원 배치 (180도 범위)
                 const angle = (index * 22.5) + 225
                 const radius = 400
                 const x = Math.cos((angle * Math.PI) / 180) * radius
