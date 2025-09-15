@@ -1,7 +1,9 @@
+import ListSection from '../components/todo/ListSection' 
+
 function TodoPage() {
   return (
     <div className="flex flex-col items-center justify-center h-screen">
-      <h1>TodoPage</h1>
+      <ListSection />
     </div>
   )
 }
